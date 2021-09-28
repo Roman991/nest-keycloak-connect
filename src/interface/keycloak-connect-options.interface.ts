@@ -149,6 +149,11 @@ export interface KeycloakConnectConfig extends NestKeycloakConfig {
    * Require SSL.
    */
   'ssl-required'?: string;
+
+  /**
+   * Issuer.
+   */
+  iss?: string;
 }
 
 /**
